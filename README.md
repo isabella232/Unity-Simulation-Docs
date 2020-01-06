@@ -22,6 +22,7 @@ Please refer to the [Installing pre-requisites guide](doc/requirements.md) for a
 |[QuickStart tutorial](doc/quickstart.md) | How to get started with Unity Simulation - A walkthrough |
 |[Unity Simulation SDK](doc/integrate.md) | Developing with the Unity Simulation SDK|
 |[Unity Linux build](doc/build.md) | How to make a Linux build|
+|[API Docs](https://api.simulation.unity3d.com/swagger/index.html)| Documentation for using the Simulation API |
 |[Linux Build Testing](doc/testing.md) | Testing Linux build locally|
 |[Sample Roll-A-Ball tutorial](https://github.com/Unity-Technologies/Unity-Simulation-RollABall) | Sample unity project integrated with the Unity Simulation SDK|
 |[Simultaneous Capture](doc/simultaneous-capture.md)|How to simultaneously log data and capture an image.|
