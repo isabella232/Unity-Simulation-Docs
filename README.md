@@ -20,13 +20,26 @@ Please refer to the [Installing pre-requisites guide](doc/requirements.md) for a
 |---|---|
 |[Unity Simulation Concepts](doc/taxonomy.md) | Unity Simulation Concepts|
 |[QuickStart tutorial](doc/quickstart.md) | How to get started with Unity Simulation - A walkthrough |
+|[Sample Roll-A-Ball tutorial](https://github.com/Unity-Technologies/Unity-Simulation-RollABall) | Sample unity project integrated with the Unity Simulation SDK|
+
+## Developing a Simulation
+| Section | Description |
+|---|---|
 |[Unity Simulation SDK](doc/integrate.md) | Developing with the Unity Simulation SDK|
 |[Unity Linux build](doc/build.md) | How to make a Linux build|
-|[API Docs](https://api.simulation.unity3d.com/swagger/index.html)| Documentation for using the Simulation API |
 |[Linux Build Testing](doc/testing.md) | Testing Linux build locally|
-|[Sample Roll-A-Ball tutorial](https://github.com/Unity-Technologies/Unity-Simulation-RollABall) | Sample unity project integrated with the Unity Simulation SDK|
-|[Simultaneous Capture](doc/simultaneous-capture.md)|How to simultaneously log data and capture an image.|
-|[Use Case How Tos](doc/use-cases/use-cases.md) | Example use cases and how to implement them.|
-|[Tiers](doc/usage-tiers.md)| How tiers affect your resource allowance and usage |
----
 
+## How-to Guides
+| Section | Description |
+|---|---|
+|[Use Case How-tos](doc/use-cases/use-cases.md) | Example use cases and how to implement them.|
+|[Simultaneous Capture](doc/simultaneous-capture.md)|How to simultaneously log data and capture an image.|
+|[Troubleshooting](doc/troubleshooting.md) | Troubleshooting common issues.|
+
+## Reference
+
+| Section | Description |
+|---|---|
+|[API Docs](https://api.simulation.unity3d.com/swagger/index.html)| Documentation for using the Simulation API |
+|[CLI commands](doc/cli.md) | command descriptions for the CLI |
+|[Tiers](doc/usage-tiers.md)| How tiers affect your resource allowance and usage |
