@@ -1,6 +1,6 @@
 # Unity Simulation - Command Line Interface - CLI
 
-The command line tool is provided as a convenience for interacting with the Unity Simulation API. All of the commands exposed by the CLI are composed from calls to the API. This document explains the syntax and function of each command.
+The command line tool is provided as a convenience for interacting with the Unity Simulation API. All of the commands exposed by the CLI are composed from calls to the API (see [API docs](https://api.simulation.unity3d.com/swagger/index.html)). This document explains the syntax and function of each command.
 
 Generally the format of the commands follows the `usim <action> <target>` format with additional options for some commands.
 
