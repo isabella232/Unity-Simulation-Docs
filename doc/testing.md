@@ -253,7 +253,12 @@ docker cp ff69abdf956e:/PATH/TO/FILE/FILENAME.txt FILENAME.txt
 
 You can also test your own project's Linux builds by only making a few changes.
 
-Use the Dockerfile below or copy the `Dockerfile` in the Quickstart Materials to the directory where your Linux build was saved and change the `COPY` lines at the bottom to point at your executable and _Data directory.
+Use the Dockerfile below or copy the `Dockerfile` in the Quickstart Materials to the directory where your Linux build was saved and change the `COPY` lines at the bottom to point at your executable, _Data directory, and UnityPlayer.so file. You may omit copying your build files using docker's [bind mounting feature](https://docs.docker.com/storage/bind-mounts/) when you execute the docker run command.
+
+Example of bind mounting:
+```bash
+$ docker run -it --rm --mount type=bind,src=/path/to/build,dst=/unity_player test-container bash
+```
 ```
 # What is the base image to pull
 FROM python:3.7.2-stretch
@@ -261,12 +266,17 @@ FROM python:3.7.2-stretch
 # Update package lists
 RUN apt-get update
 
-# Install xvfb to execute the Unity build on the container
+# Install xvfb to execute the Unity build in the container
 RUN apt-get install -y xvfb
 
-# Copy the executable and _Data directory to /tmp
-COPY [YOUR_BUILD].x86_64 /tmp/linux_build.x86_64
-COPY [YOUR_BUILD]_Data /tmp/linux_build_Data
+
+# Copy the executable and _Data directory to /unity_player
+RUN mkdir /unity_player
+COPY [YOUR_BUILD].x86_64 /unity_player/linux_build.x86_64
+COPY [YOUR_BUILD]_Data /unity_player/linux_build_Data
+
+# for 2019.2+ version of the Unity Editor
+COPY [YOUR_UnityPlayer].so /unity_player/UnityPlayer.so
 ```
 
 ## Loading App Params
