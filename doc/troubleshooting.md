@@ -63,3 +63,24 @@ usim get projects > my_projects.txt
 OR
 usim get projects | less
 ```
+
+## macOS Gatekeeper
+
+Apple has [information and instructions](https://support.apple.com/en-us/HT202491) for Gatekeeper issues.
+
+#### Validating checksums
+
+Our release notes will have checksums included for macOS releases. You can verify that the `usim` executable is in tact by comparing the checksum of the file. Produce a checksum with the `shasum -a 256 usim` command and compare the output with the checksum included in the release notes.
+
+#### Quarantine attribute
+
+macOS adds a quarantine attribute that may prevent launching usim. If this occurs you should first [validate the checksum](#Validating-checksums). You can remove the quarantine attribute with `xattr -rd com.apple.quarantine /path/to/usim`.
+
+#### Allow terminal to load libraries
+Error `not valid for use in process using Library Validation: library load disallowed by system policy`
+
+The macOS Terminal app settings may need to be set to allow loading libraries. Navigate to System Preferences and then:
+
+Security & privacy -> Privacy tab -> Developer tools -> make sure terminal checkbox is checked
+
+
