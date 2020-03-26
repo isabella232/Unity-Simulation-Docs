@@ -1,6 +1,6 @@
 # Unity Simulation Documentation
 
-Welcome and thanks for checking out Unity Simulation. Unity Simulation allows you to run different simulations using Unity. Unity Simulation is in active development. We hope you enjoy using the service, if you have any questions please reach us at [simulation-help](mailto:simulation-help@unity3d.com)
+Welcome and thanks for checking out Unity Simulation. Unity Simulation allows you to run different simulations using Unity. Unity Simulation is in active development. We hope you enjoy using the service, if you have any questions please reach us at [simulation-help](mailto:simulation-help@unity3d.com) or open a thread in [our forum](https://forum.unity.com/forums/unity-simulation.407/).
 
 ## Pre-Requisites to installing Unity Simulation
 
