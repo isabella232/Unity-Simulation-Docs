@@ -59,6 +59,8 @@ Windows:
 > cd C:\Users\MyName\Downloads\unity_simulation_bundle
 ```
 
+*NOTE*: macOS users may encounter issues with Gatekeeper; see the [troubleshooting guide](https://github.com/Unity-Technologies/Unity-Simulation-Docs/blob/master/doc/troubleshooting.md#macos-gatekeeper) for help.
+
 ### Login
 
 Use your Unity credentials to login via the CLI.
