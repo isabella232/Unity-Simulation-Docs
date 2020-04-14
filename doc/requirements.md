@@ -6,7 +6,7 @@
 - Linux build support required
 
 ## Unity Account
-A Unity account is required to submit simulations to the Unity Simulation service. If you do not already have a Unity account please follow this [link](id.unity.com) to sign up for a free account
+A Unity account is required to submit simulations to the Unity Simulation service. If you do not already have a Unity account please follow this [link](https://id.unity.com) to sign up for a free account
 
 ## Unity Cloud Project
 A Unity Cloud Project Id is required to use Unity Simulation. Please reference the [Setting up your project for Unity Services](https://docs.unity3d.com/Manual/SettingUpProjectServices.html) for instructions on how to enable Unity Cloud Services for a project and how to find the Cloud Project Id.
