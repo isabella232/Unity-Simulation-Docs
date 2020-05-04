@@ -27,7 +27,7 @@ If you are working on a non Linux OS and would like to ensure that your Linux bu
 
 Build a Linux standalone version by navigating to the [Build Settings](https://docs.unity3d.com/Manual/BuildSettings.html) dialog.  Make sure that the scene “Roll-a-Ball”, or your target scene if this is a personal project, is selected in the “Scenes In Build”, target platform is “Linux” and Architecture is “x86_64”.
 
-The player settings are setup correctly for this project, but please double check that the settings match those described in the prerequisites section of the [Unity Simulation SDK document](doc/integrate.md).
+The player settings are setup correctly for this project, but please double check that the settings match those described in the prerequisites section of the [Unity Simulation SDK document](integrate.md).
 
 ![savebld](images/build-4.png "savebld")
 
