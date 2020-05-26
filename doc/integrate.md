@@ -46,7 +46,7 @@ Click on the + icon, and choose Add package from git URL. Then in the text field
 
 *com.unity.simulation.capture@0.0.10-preview.8*
 
-![add_package2](images/PackmanAdd2.png "add_package2")
+![add_package_step2](images/PackmanAdd2.png "add_package2")
 
 And press the Add button to install the package. You should see a progress bar dialog show as the package is installed and compiled.
 
