@@ -40,7 +40,7 @@ You can also find the package in the Unity Package manager under preview package
 
 To import the Unity Simulation Capture package using the Package Manager in the editor select the Window menu, and choose Package Manager. This will open a window that allows you to install new packages.
 
-![add_package1](images/PackmanAdd1.png "add_package1")
+![add_package_step1](images/PackmanAdd1.png "add_package1")
 
 Click on the + icon, and choose Add package from git URL. Then in the text field, paste the following package name into the field.
 
