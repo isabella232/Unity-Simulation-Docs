@@ -43,6 +43,10 @@ Add CameraGrab.cs script component to the newly created empty gameobject.
 
 With the DataCapture game object selected, expand Camera Sources in the Inspector window and set the size to 1 since we will only be using a single camera in this scene. Then, drag the Main Camera onto Camera Sources' Element 0 in the CameraGrab Script.
 
+### Batch Readback
+
+Enable this checkbox to perform readback of images in batches. With this, the request to readback will be queued up and processed in batch once the number of requests reaches the specified batch size. This has some performance benefits. The performance is subject to screen capture interval, resolution of the targetTexture and the rendering workload. Experiment with different batch size to see what suits your rendering workload. 
+
 Create the following script in the Editor and attach it to the `DataCapture` game object.
 
 TestDataCapture.cs
@@ -103,7 +107,7 @@ using UnityEngine;
 
 public class TestDataCapture : MonoBehaviour
 {
-    private Unity.AI.Simulation.Logger dataLogger;
+    private Unity.Simulation.Logger dataLogger;
 
     // Create and Log a vector
     void Start()
@@ -273,7 +277,7 @@ public class ParamReader : MonoBehaviour
         // SimulationElapsedSeconds represents the aggregate frame seconds
         // Refer
         // - https://docs.unity3d.com/ScriptReference/Time-deltaTime.html for more on seconds since last frame
-        // - Unity.AI.Simulation.DXTimeLogger for examples of logtime methods
+        // - Unity.Simulation.DXTimeLogger for examples of logtime methods
         // - https://docs.unity3d.com/ScriptReference/Time.html for time information from Unity.
         // - https://docs.microsoft.com/en-us/dotnet/api/system.diagnostics.stopwatch?view=netframework-4.8 (MSDN stopwatch for elapsedSeconds)
         simElapsedSeconds += Time.deltaTime;
