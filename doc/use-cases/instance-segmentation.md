@@ -191,7 +191,7 @@ public class InstanceDataCapture : MonoBehaviour
                     CaptureImageEncoder.ImageFormat.Jpg, true);
 
             // Write the screen capture to a file
-            var result = DXFile.Write(path, image);
+            var result = FileProducer.Write(path, image);
 
             // Wait for Async screen capture request to return and then log data point
             if (result)

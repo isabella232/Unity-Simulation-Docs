@@ -21,7 +21,7 @@ Please refer to the [Installing pre-requisites guide](doc/requirements.md) for a
 |[Unity Simulation Concepts](doc/taxonomy.md) | Unity Simulation Concepts|
 |[QuickStart tutorial](doc/quickstart.md) | How to get started with Unity Simulation - A walkthrough |
 |[Sample Roll-A-Ball tutorial](https://github.com/Unity-Technologies/Unity-Simulation-RollABall) | Sample unity project integrated with the Unity Simulation SDK|
-|[Sample Smart-Camera-Outdoor](https://github.com/Unity-Technologies/Unity-Simulation-RollABall) | Sample unity project demonstrating usage of simulation packages for outdoor smart camera usecases.
+|[Sample Smart-Camera-Outdoor](https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor) | Sample unity project demonstrating usage of simulation packages for outdoor smart camera usecases.
 
 ## Developing a Simulation
 | Section | Description |
