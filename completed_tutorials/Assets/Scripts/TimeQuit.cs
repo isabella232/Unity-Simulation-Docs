@@ -1,4 +1,4 @@
-﻿using Unity.AI.Simulation;
+﻿using Unity.Simulation;
 using UnityEngine;
 using UnityEngine.Profiling;
 
@@ -11,7 +11,7 @@ public class TimeQuit : MonoBehaviour
     void Start()
     {
         var profilingAreas = new ProfilerArea[] { ProfilerArea.CPU, ProfilerArea.GPU, ProfilerArea.Physics };
-        DXProfilerManager.EnableProfiling(profilingAreas);
+        ProfilerManager.EnableProfiling(profilingAreas);
     }    
     
     void Update()

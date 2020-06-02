@@ -1,7 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="044c2264-66f2-42b4-9c49-0d4d5333c4be" name="Default Changelist" comment="" />
+    <list default="true" id="044c2264-66f2-42b4-9c49-0d4d5333c4be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.completed_tutorials/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.completed_tutorials/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.completed_tutorials/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.completed_tutorials/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.completed_tutorials/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.completed_tutorials/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/Assemblies.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/Assemblies/Simulation.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/Assemblies/Simulation.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/Assemblies/Simulation.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/Assemblies/Simulation.pdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/GoogleCloudSDK.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/GoogleCloudSDK.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax.rest.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax.rest/Google.Api.Gax.Rest.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax.rest/Google.Api.Gax.Rest.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax.rest/Google.Api.Gax.Rest.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax.rest/Google.Api.Gax.Rest.pdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax.rest/Google.Api.Gax.Rest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax.rest/Google.Api.Gax.Rest.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax/Google.Api.Gax.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax/Google.Api.Gax.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax/Google.Api.Gax.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax/Google.Api.Gax.pdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax/Google.Api.Gax.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.api.gax/Google.Api.Gax.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.auth.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.auth/Google.Apis.Auth.PlatformServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.auth/Google.Apis.Auth.PlatformServices.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.auth/Google.Apis.Auth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.auth/Google.Apis.Auth.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.auth/Google.Apis.Auth.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.auth/Google.Apis.Auth.pdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.auth/Google.Apis.Auth.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.auth/Google.Apis.Auth.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.core.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.core/Google.Apis.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.core/Google.Apis.Core.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.core/Google.Apis.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.core/Google.Apis.Core.pdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.core/Google.Apis.Core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.core/Google.Apis.Core.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.storage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.storage/Google.Apis.Storage.v1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.storage/Google.Apis.Storage.v1.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.storage/Google.Apis.Storage.v1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.storage/Google.Apis.Storage.v1.pdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.storage/Google.Apis.Storage.v1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis.storage/Google.Apis.Storage.v1.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis/Google.Apis.PlatformServices.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis/Google.Apis.PlatformServices.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis/Google.Apis.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis/Google.Apis.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis/Google.Apis.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis/Google.Apis.pdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis/Google.Apis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.apis/Google.Apis.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.cloud.storage.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.cloud.storage/Google.Cloud.Storage.V1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.cloud.storage/Google.Cloud.Storage.V1.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.cloud.storage/Google.Cloud.Storage.V1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.cloud.storage/Google.Cloud.Storage.V1.pdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.cloud.storage/Google.Cloud.Storage.V1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/google.cloud.storage/Google.Cloud.Storage.V1.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/newtonsoft.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/newtonsoft.json/Newtonsoft.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/newtonsoft.json/Newtonsoft.Json.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/newtonsoft.json/Newtonsoft.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/newtonsoft.json/Newtonsoft.Json.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/system.interactive.async.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/system.interactive.async/System.Interactive.Async.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/system.interactive.async/System.Interactive.Async.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/system.interactive.async/System.Interactive.Async.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/GoogleCloudSDK/system.interactive.async/System.Interactive.Async.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/Runtime/DXProfilerManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/Runtime/DXProfilerManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/Runtime/SRPSupport.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/Runtime/SRPSupport.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/JpegEncoder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/JpegEncoder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Linux.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Linux/libjpeg.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Linux/libjpeg.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Linux/libjpeg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Linux/libjpeg.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Linux/libturbojpeg.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Linux/libturbojpeg.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Linux/libturbojpeg.so" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Linux/libturbojpeg.so.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Mac.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Mac/libjpeg.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Mac/libjpeg.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Mac/libjpeg.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Mac/libjpeg.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Mac/libturbojpeg.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Mac/libturbojpeg.a.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Mac/libturbojpeg.bundle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Mac/libturbojpeg.bundle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/jpeg-static.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/jpeg-static.lib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/jpeg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/jpeg.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/jpeg.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/jpeg.lib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/libturbojpeg.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/libturbojpeg.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/libturbojpeg.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/libturbojpeg.lib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/turbojpeg-static.lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Plugins/JpgEncoder/Windows/turbojpeg-static.lib.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Resources/USimBlitToDepth.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DataExchange/SimulationSDK/Resources/USimBlitToDepth.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ApplySegmentation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ApplySegmentation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CubeSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CubeSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InstanceDataCapture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InstanceDataCapture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ParamReader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ParamReader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenDataCapture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenDataCapture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TestDataCapture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TestDataCapture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimeQuit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimeQuit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" beforeDir="false" afterPath="$PROJECT_DIR$/Library/APIUpdater/project-dependencies.graph" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/CHANGELOG.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/AssemblyInfo.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/DataPrivacy.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/DataPrivacy.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/DataPrivacyButton.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/DataPrivacyButton.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/DataPrivacyButton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/DataPrivacyButton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/DataPrivacyIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/DataPrivacyIcon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/Unity.Analytics.DataPrivacy.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/DataPrivacy/Unity.Analytics.DataPrivacy.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Editor/AnalyticsEventTracker icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Editor/AnalyticsEventTracker icon.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/License.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/License.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/.tests.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AchievementStepTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AchievementStepTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AchievementUnlockedTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AchievementUnlockedTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AdCompleteTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AdCompleteTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AdOfferTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AdOfferTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AdSkipTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AdSkipTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AdStartTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AdStartTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AnalyticsEventTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/AnalyticsEventTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/ChatMessageSentTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/ChatMessageSentTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/CutsceneSkipTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/CutsceneSkipTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/CutsceneStartTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/CutsceneStartTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/FirstInteractionTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/FirstInteractionTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/GameOverTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/GameOverTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/GameStartTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/GameStartTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/IAPTransactionTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/IAPTransactionTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/ItemAcquiredTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/ItemAcquiredTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/ItemSpentTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/ItemSpentTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelCompleteTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelCompleteTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelFailTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelFailTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelQuitTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelQuitTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelSkipTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelSkipTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelStartTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelStartTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelUpTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/LevelUpTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/PostAdActionTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/PostAdActionTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/PushNotificationClickTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/PushNotificationClickTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/PushNotificationEnableTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/PushNotificationEnableTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/ScreenVisitTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/ScreenVisitTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/SocialShareAcceptTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/SocialShareAcceptTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/SocialShareTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/SocialShareTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/StoreItemClickTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/StoreItemClickTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/StoreOpenedTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/StoreOpenedTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/TutorialCompleteTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/TutorialCompleteTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/TutorialSkipTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/TutorialSkipTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/TutorialStartTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/TutorialStartTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/TutorialStepTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/TutorialStepTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/Unity.Analytics.StandardEvents.EditorTests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/Unity.Analytics.StandardEvents.EditorTests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/UserSignupTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Editor/Unity.Analytics.StandardEvents/UserSignupTests.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Runtime.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Runtime/DataPrivacy.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Runtime/DataPrivacy/JsonSerialization.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Runtime/DataPrivacy/JsonSerialization.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Runtime/DataPrivacy/Unity.Analytics.DataPrivacy.Tests.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Tests/Runtime/DataPrivacy/Unity.Analytics.DataPrivacy.Tests.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll.mdb.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.analytics@3.3.2/package.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.6/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.6/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptMapper" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptMapper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler8.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler9.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/completed_tutorials.sln" beforeDir="false" afterPath="$PROJECT_DIR$/completed_tutorials.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/integrate.md" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/integrate.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/simultaneous-capture.md" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/simultaneous-capture.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/use-cases/instance-segmentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/use-cases/instance-segmentation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/use-cases/semantic-segmentation.md" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/use-cases/semantic-segmentation.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,25 +304,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenDataCapture.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MountainParam.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstanceCount.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Segmentation.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParamReader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstanceDataCapture.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraSpinner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeAppParam.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/InstanceCounting.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.simulation.capture@0.0.10-preview.8/Runtime/CaptureCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplySegmentation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPosition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DataExchange/Assemblies.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MountainParam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeAppParam.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeQuit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyInstanceCountability.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeQuit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPosition.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstanceCount.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/InstanceCounting.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstanceDataCapture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenDataCapture.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestDataCapture.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataPointIntegration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Segmentation.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CubeSpinner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataPointIntegration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParamReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraSpinner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.simulation.core@0.0.10-preview.12/Runtime/FileProducer.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -39,15 +332,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraSpinner.cs" />
         <option value="$PROJECT_DIR$/Assets/Segmentation.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MountainParam.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ApplySegmentation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstanceCount.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InstanceDataCapture.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScreenDataCapture.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TestDataCapture.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TimeQuit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ParamReader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CubeSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyInstanceCountability.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ApplySegmentation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CubeSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstanceDataCapture.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimeQuit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TestDataCapture.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScreenDataCapture.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ParamReader.cs" />
       </list>
     </option>
   </component>
@@ -109,6 +402,7 @@
       <workItem from="1568752763217" duration="5096000" />
       <workItem from="1568824561635" duration="2915000" />
       <workItem from="1568935788364" duration="929000" />
+      <workItem from="1591074191983" duration="1384000" />
     </task>
     <servers />
   </component>

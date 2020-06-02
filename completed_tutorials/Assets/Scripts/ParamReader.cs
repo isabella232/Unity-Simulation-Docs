@@ -4,13 +4,14 @@
  *
  * Update corresponding variables in scene.
  */
+
+using Unity.Simulation;
 using UnityEngine;
-using Unity.AI.Simulation;
 
 public class ParamReader : MonoBehaviour
 {
-    private Unity.AI.Simulation.Logger paramLogger;
-    private Unity.AI.Simulation.Logger cubeLogger;
+    private Unity.Simulation.Logger paramLogger;
+    private Unity.Simulation.Logger cubeLogger;
     private CubeAppParam appParams;
     private static float quitAfterSeconds;
     private static float simElapsedSeconds;
@@ -38,8 +39,8 @@ public class ParamReader : MonoBehaviour
     void Start()
     {
         // Create a specific logger for AppParams for debugging purposes
-        paramLogger = new Unity.AI.Simulation.Logger("ParamReader");
-        cubeLogger = new Unity.AI.Simulation.Logger("CubeLogger");
+        paramLogger = new Unity.Simulation.Logger("ParamReader");
+        cubeLogger = new Unity.Simulation.Logger("CubeLogger");
         simElapsedSeconds = 0;
 
         // NOTE: AppParams can be loaded anytime except during `RuntimeInitializeLoadType.BeforeSceneLoad`

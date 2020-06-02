@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-using Unity.AI.Simulation;
+using Unity.Simulation;
 using Random = UnityEngine.Random;
 
 public class CubeSpawner : MonoBehaviour
@@ -11,8 +11,8 @@ public class CubeSpawner : MonoBehaviour
     
     public bool AppParamToggle;
     
-    private Unity.AI.Simulation.Logger paramLogger;
-    private Unity.AI.Simulation.Logger cubeLogger;
+    private Unity.Simulation.Logger paramLogger;
+    private Unity.Simulation.Logger cubeLogger;
     private MountainParam appParams;
     private static float quitAfterSeconds;
     private static float simElapsedSeconds;
@@ -56,8 +56,8 @@ public class CubeSpawner : MonoBehaviour
         objDict.Add("sphere", SpherePrefab);
         
         // Create a specific logger for AppParams for debugging purposes
-        paramLogger = new Unity.AI.Simulation.Logger("ParamReader");
-        cubeLogger = new Unity.AI.Simulation.Logger("CubeLogger");
+        paramLogger = new Unity.Simulation.Logger("ParamReader");
+        cubeLogger = new Unity.Simulation.Logger("CubeLogger");
         simElapsedSeconds = 0;
 
         // NOTE: AppParams can be loaded anytime except during `RuntimeInitializeLoadType.BeforeSceneLoad`

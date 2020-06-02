@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
-using Unity.AI.Simulation;
+using Unity.Simulation;
 using UnityEngine.Experimental.Rendering;
 using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using Unity.Simulation;
 
 public class InstanceDataCapture : MonoBehaviour
 {
@@ -15,15 +16,15 @@ public class InstanceDataCapture : MonoBehaviour
 	private int lastCapture;
 	private float simElapsed;
 	private bool quit; // Editor use only, minimizes screen/data captures 
-	private Unity.AI.Simulation.Logger dataLogger;
+	private Unity.Simulation.Logger dataLogger;
 	private string screenCapturePath;
 
 	private void Start()
 	{
 		Debug.Log(Application.persistentDataPath + "/" + Configuration.Instance.GetAttemptId());
-		screenCapturePath = DXManager.Instance.GetDirectoryFor(DataCapturePaths.ScreenCapture);
+		screenCapturePath = Manager.Instance.GetDirectoryFor(DataCapturePaths.ScreenCapture);
 		// Data logger defaults to the same run directory as ScreenCapture
-		dataLogger = new Unity.AI.Simulation.Logger("DataCapture");
+		dataLogger = new Unity.Simulation.Logger("DataCapture");
 	}
 
 	private void Capture(int num)
@@ -42,7 +43,7 @@ public class InstanceDataCapture : MonoBehaviour
 					CaptureImageEncoder.ImageFormat.Jpg, true);
 
             // Write the screen capture to a file
-			var result = DXFile.Write(path, image);
+			var result = FileProducer.Write(path, image);
 
             // Wait for Async screen capture request to return and then log data point
 			if (result)
@@ -73,7 +74,7 @@ public class InstanceDataCapture : MonoBehaviour
 			dataLogger.Flushall();
 			quit = true;
 			Debug.Log("Quitting...");
-			Unity.AI.Simulation.Logger successLogger = new Unity.AI.Simulation.Logger("_Success");
+			Unity.Simulation.Logger successLogger = new Unity.Simulation.Logger("_Success");
 			Application.Quit();
         }
 

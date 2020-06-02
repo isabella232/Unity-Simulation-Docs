@@ -1,9 +1,9 @@
-using Unity.AI.Simulation;
+using Unity.Simulation;
 using UnityEngine;
 
 public class TestDataCapture : MonoBehaviour
 {
-    private Unity.AI.Simulation.Logger dataLogger;
+    private Unity.Simulation.Logger dataLogger;
 
     // Create and Log a vector
     void Start()
@@ -12,7 +12,7 @@ public class TestDataCapture : MonoBehaviour
         Debug.Log(Application.persistentDataPath + "/" + Configuration.Instance.GetAttemptId());
 
         // Create new data logger with output files named DataCapture
-        dataLogger = new Unity.AI.Simulation.Logger("DataCapture");
+        dataLogger = new Unity.Simulation.Logger("DataCapture");
 
         Vector3 examplePosition = new Vector3(0, 1, 2);
 

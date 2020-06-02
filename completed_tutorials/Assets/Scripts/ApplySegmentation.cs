@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Unity.AI.Simulation;
+using Unity.Simulation;
 using UnityEngine;
 
 public class ApplySegmentation : MonoBehaviour

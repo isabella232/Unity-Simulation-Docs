@@ -9,7 +9,7 @@ This tutorial assumes the user has some familiarity with the Unity Editor. If co
 
 Other Prerequesites:
 - Unity Account
-- Unity version >= 2018.3.f1 (>= 2019.3 for [SRP](https://docs.unity3d.com/Manual/ScriptableRenderPipeline.html) support)
+- Unity version >= 2018.4 (>= 2019.3 for [SRP](https://docs.unity3d.com/Manual/ScriptableRenderPipeline.html) support)
 - Supported platforms: Windows10+ and 0SX (High-Sierra or newer)
 - Linux build support installed
 
@@ -29,47 +29,25 @@ Set API Compatibility level to .NET 4.x as shown below.
 ![API compat](images/sdk1.png "API compat")
 
 ## Import SDK
-Download the [latest](https://github.com/Unity-Technologies/Unity-Simulation-Docs/releases) release of the Unity Simulation bundle and the Unity Simulation SDK under the `Assets` drop down at the bottom of each release.
+Import Unity Simulation Packages by including the following entry in your project manifest.json file.
+"com.unity.simulation.capture": "0.0.10-preview.8", You can also find the package in the Unity Package manager under preview packages (For unity versions upto 2020.1).
 
->![unity_simulation_bundle](images/assets-sdk.png "unity_simulation_bundle")
-
-Import the SDK into your project from the menu bar by navigating to `Assets` -> `Import Package` -> `Custom Package` and selecting the downloaded SDK package.
-
-Alternatively, you can import the SDK by double clicking the `Simulation.unitypackage` and selecting `Import`.
-
-You might encounter the following error during an import. Click clear to see if this error is transient.
-```
-Unable to update following assemblies:Assets/DataExchange/Assemblies/Simulation.dll (Name = Simulation, Error = 131) (Output: /var/folders/ks/f3gbl2ld59j5748n3rx5qqp00000gp/T/tmpc84219a.tmp)
-
-System.InvalidOperationException: Operation is not valid due to the current state of the object.
-  at Mono.Cecil.ModuleDefinition.ReadSymbols (Mono.Cecil.Cil.ISymbolReader reader) [0x0002f] in <a3989f8c34e6476eaca56644d5639ee8>:0
-```
 
 ## Screen Capture
 
 Create a new empty GameObject and name it DataCapture.
 
-Then expand the Assets/DataExchange/Assemblies/Simulation by clicking the arrow button on it's icon, as shown below.
+Add CameraGrab.cs script component to the newly created empty gameobject.
 
-Locate the CameraGrab script in the Simulation assembly and attach it to the DataCapture GameObject.
-![assembly](images/sdk6-00-locate-camera-grab.png "Assembly")
-
+![CameraGrab](images/CameraGrab.png "CameraGrab")
 
 With the DataCapture game object selected, expand Camera Sources in the Inspector window and set the size to 1 since we will only be using a single camera in this scene. Then, drag the Main Camera onto Camera Sources' Element 0 in the CameraGrab Script.
-
-**NOTE:** Setting the Camera Sources size to 1 will  throw the following exception in the Editor console which can be safely cleared once a camera has been added to Element 0.
-```
-UnassignedReferenceException: The variable _cameraSources of CameraGrab has not been assigned.
-You probably need to assign the _cameraSources variable of the CameraGrab script in the inspector.
-```
-
-![camera grab2](images/sdk6-05-set-camera-sources.png "add-camera-grab")
 
 Create the following script in the Editor and attach it to the `DataCapture` game object.
 
 TestDataCapture.cs
 ```csharp
-using Unity.AI.Simulation;
+using Unity.Simulation;
 using UnityEngine;
 
 public class TestDataCapture : MonoBehaviour
@@ -81,8 +59,6 @@ public class TestDataCapture : MonoBehaviour
     }
 }
 ```
-
-![camera grab2](images/sdk6-07-add-test-data-capture.png "add-test-data-capture")
 
 **NOTE:** [Persistent Data Path](https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html) is a directory path where data is stored between runs on a device.
 For every simulation execution a new `attempt id` will be generated and a corresponding directory will be created at the `Application.persistentDataPath` to store all captured data.
@@ -122,7 +98,7 @@ Edit the TestDataCapture script so that it matches the code below.
 
 TestDataCapture.cs
 ```csharp
-using Unity.AI.Simulation;
+using Unity.Simulation;
 using UnityEngine;
 
 public class TestDataCapture : MonoBehaviour
@@ -137,7 +113,7 @@ public class TestDataCapture : MonoBehaviour
             Application.persistentDataPath, Configuration.Instance.GetAttemptId());
 
         // Create new data logger with output files named DataCapture
-        dataLogger = new Unity.AI.Simulation.Logger("DataCapture");
+        dataLogger = new Unity.Simulation.Logger("DataCapture");
 
         Vector3 examplePosition = new Vector3(0, 1, 2);
 
@@ -221,12 +197,12 @@ ParamReader.cs
  * Update corresponding variables in scene.
  */
 using UnityEngine;
-using Unity.AI.Simulation;
+using Unity.Simulation;
 
 public class ParamReader : MonoBehaviour
 {
-    private Unity.AI.Simulation.Logger paramLogger;
-    private Unity.AI.Simulation.Logger cubeLogger;
+    private Unity.Simulation.Logger paramLogger;
+    private Unity.Simulation.Logger cubeLogger;
     private CubeAppParam appParams;
     private static float quitAfterSeconds;
     private static float simElapsedSeconds;
@@ -254,8 +230,8 @@ public class ParamReader : MonoBehaviour
     void Start()
     {
         // Create a specific logger for AppParams for debugging purposes
-        paramLogger = new Unity.AI.Simulation.Logger("ParamReader");
-        cubeLogger = new Unity.AI.Simulation.Logger("CubeLogger");
+        paramLogger = new Unity.Simulation.Logger("ParamReader");
+        cubeLogger = new Unity.Simulation.Logger("CubeLogger");
         simElapsedSeconds = 0;
 
         // NOTE: AppParams can be loaded anytime except during `RuntimeInitializeLoadType.BeforeSceneLoad`
@@ -407,7 +383,7 @@ For example, you can add this to the Start() function in `ParamReader.cs`
 
 ```
 var profilingAreas = new UnityEngine.Profiling.ProfilerArea[] { UnityEngine.Profiling.ProfilerArea.CPU, UnityEngine.Profiling.ProfilerArea.GPU, UnityEngine.Profiling.ProfilerArea.Physics };
-DXProfilerManager.EnableProfiling(profilingAreas);
+ProfilerManager.EnableProfiling(profilingAreas);
 ```
 ![enable profiling](images/sdk8.png "Profiler")
 
@@ -420,7 +396,7 @@ A sample log line looks like this
 DC[I]: USim Time (secs) : Wall(10.178) Simulation(10.004) Unscaled(11.699) FPS(55.778)
 ```
 
-Refer the `Unity.AI.Simulation.DXTimeLogger`
+Refer the `Unity.Simulation.TimeLogger`
 
 | Name | Description |
 |---|---|
