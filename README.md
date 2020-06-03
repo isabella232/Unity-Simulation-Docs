@@ -1,6 +1,6 @@
 # Unity Simulation Documentation
 
-Welcome and thanks for checking out Unity Simulation. Unity Simulation allows you to run configurable simulations at scale to generate a variety of data sets (custom logs or syntheic data) using Unity. Unity Simulation is in active development. We hope you enjoy using the service, if you have any questions please open a thread in [the forum](https://forum.unity.com/forums/unity-simulation.407/) or contact support at [simulation-help](mailto:simulation-help@unity3d.com).
+Welcome and thanks for checking out Unity Simulation. Unity Simulation allows you to run configurable simulations at scale to generate a variety of data sets (custom logs or synthetic data) using Unity. Unity Simulation is in active development. We hope you enjoy using the service, if you have any questions please open a thread in [the forum](https://forum.unity.com/forums/unity-simulation.407/) or contact support at [simulation-help](mailto:simulation-help@unity3d.com).
 
 ## Pre-Requisites to installing Unity Simulation
 
