@@ -1,6 +1,6 @@
 # Unity Simulation Documentation
 
-Welcome and thanks for checking out Unity Simulation. Unity Simulation allows you to run configurable simulations at scale to generate a variety of data sets (custom logs or synthetic data) using Unity. Unity Simulation is in active development. We hope you enjoy using the service, if you have any questions please open a thread in [the forum](https://forum.unity.com/forums/unity-simulation.407/) or contact support at [simulation-help](mailto:simulation-help@unity3d.com).
+Welcome and thanks for using Unity Simulation. Unity Simulation enables product developers, researchers, and engineers to easily and efficiently run thousands of instances of parameterized Unity builds in batch in the cloud. Unity Simulation allows you to parameterize a Unity project in ways that will change from run to run. You can also specify simulation output data necessary for your end application, whether that be the generation of training data for machine learning, the testing and validation of AI algorithms, or the evaluation and optimization of modeled systems. With Unity Simulation, there is no need to install and manage batch computing software or server clusters that you use to run your jobs, allowing you to focus on analyzing results and solving problems. We hope you enjoy using the service, if you have any questions please open a thread in [the forum](https://forum.unity.com/forums/unity-simulation.407/) or contact support at simulation-help@unity3d.com.
 
 ## Pre-Requisites to installing Unity Simulation
 
