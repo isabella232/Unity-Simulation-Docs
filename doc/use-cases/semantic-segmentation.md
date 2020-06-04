@@ -82,7 +82,7 @@ Shader "Unlit/Segmentation"
 - Create a C# script named `ApplySegmentation` and paste the following into the `ApplySegmentation` script.
 ```csharp
 using System.Collections.Generic;
-using Unity.AI.Simulation;
+using Unity.Simulation;
 using UnityEngine;
 
 public class ApplySegmentation : MonoBehaviour
