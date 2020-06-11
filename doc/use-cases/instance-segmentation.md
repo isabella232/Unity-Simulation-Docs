@@ -145,6 +145,23 @@ public class ApplyInstanceCountability : MonoBehaviour
 }
 ```
 
+- Create a script called `InstanceCount` and paste the following.
+```csharp
+[System.Serializable]
+public class InstanceCount : System.Object
+{
+    public string screenCaptureName; // Name of saved image to correlate data
+    public string labelInstances;
+    
+    public InstanceCount(string screenCaptureName, string labelInstances)
+    {
+        this.screenCaptureName = screenCaptureName;
+        this.labelInstances = labelInstances;
+    }
+}
+```
+
+
 - Create a script called `InstanceDataCapture` and paste the following.
 ```csharp
 using UnityEngine;
