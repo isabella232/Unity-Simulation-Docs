@@ -4,6 +4,8 @@ Unity Simulation SDK Data Capture supports three image capture formats:
  - TGA
  - JPG
  - RAW
+ - PNG (2019.3 onwards)
+ - EXR (2019.3 onwards)
  
  
 Note: The RAW format is a dump of the raw binary data so the files will not contain any header information.
