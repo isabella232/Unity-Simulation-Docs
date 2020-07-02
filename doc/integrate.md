@@ -9,12 +9,7 @@ This tutorial assumes the user has some familiarity with the Unity Editor. If co
 
 Other Prerequesites:
 - Unity Account
-<<<<<<< HEAD
 - Unity version >= 2018.4 (>= 2019.3 for [SRP](https://docs.unity3d.com/Manual/ScriptableRenderPipeline.html) support)
-=======
-- Unity version >= 2018.3 (>= 2019.3 for [SRP](https://docs.unity3d.com/Manual/ScriptableRenderPipeline.html) support)
->>>>>>> a0ed174... update docs for packman and unity version changes
-- Supported platforms: Windows10+ and 0SX (High-Sierra or newer)
 - Linux build support installed
 
 Please refer to the [Requirements guide](requirements.md) for instructions on how to meet these prerequisites.
@@ -48,9 +43,9 @@ Click on the + icon, and choose Add package from git URL. Then in the text field
 
 ![add_package_step2](images/PackmanAdd2.png "add_package2")
 
-And press the Add button to install the package. You should see a progress bar dialog show as the package is installed and compiled.
+Press 'Add' to install the package. You should see a progress indicator as the package is installed and compiled.
 
-Once installed, you can use the Package Manager to update to check for updates to the package.
+Once installed, you can use the Package Manager to check for updates to the package.
 
 ## Screen Capture
 
