@@ -18,6 +18,7 @@ Please refer to the [Installing pre-requisites guide](doc/requirements.md) for a
 
 | Section | Description |
 |---|---|
+|[Sign Up for Access](https://dashboard.unity3d.com/metered-billing/marketplace/products/c20ae33a-6301-4bd3-9b17-4874027a4ed4)| Get access to free credits for our service |
 |[Unity Simulation Concepts](doc/taxonomy.md) | Unity Simulation Concepts|
 |[QuickStart tutorial](doc/quickstart.md) | How to get started with Unity Simulation - A walkthrough |
 |[Sample Smart-Camera-Outdoor](https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor) | Sample unity project demonstrating usage of simulation packages for outdoor smart camera usecases.
