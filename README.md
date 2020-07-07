@@ -4,7 +4,7 @@ Welcome and thanks for using Unity Simulation. Unity Simulation enables product 
 
 We hope you enjoy using the service, if you have any questions please open a thread in [the forum](https://forum.unity.com/forums/unity-simulation.407/) or contact support at simulation-help@unity3d.com.
 
-Sign up [here](https://dashboard.unity3d.com/metered-billing/marketplace/products/c20ae33a-6301-4bd3-9b17-4874027a4ed4) to get access to free credits now.
+Sign up [here](https://dashboard.unity3d.com/metered-billing/marketplace/products/c20ae33a-6301-4bd3-9b17-4874027a4ed4) to get access to free credits now!
 
 ## Pre-Requisites to installing Unity Simulation
 
