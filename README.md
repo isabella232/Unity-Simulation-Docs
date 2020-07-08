@@ -1,6 +1,10 @@
 # Unity Simulation Documentation
 
-Welcome and thanks for using Unity Simulation. Unity Simulation enables product developers, researchers, and engineers to easily and efficiently run thousands of instances of parameterized Unity builds in batch in the cloud. Unity Simulation allows you to parameterize a Unity project in ways that will change from run to run. You can also specify simulation output data necessary for your end application, whether that be the generation of training data for machine learning, the testing and validation of AI algorithms, or the evaluation and optimization of modeled systems. With Unity Simulation, there is no need to install and manage batch computing software or server clusters that you use to run your jobs, allowing you to focus on analyzing results and solving problems. We hope you enjoy using the service, if you have any questions please open a thread in [the forum](https://forum.unity.com/forums/unity-simulation.407/) or contact support at simulation-help@unity3d.com.
+Welcome and thanks for using Unity Simulation. Unity Simulation enables product developers, researchers, and engineers to easily and efficiently run thousands of instances of parameterized Unity builds in batch in the cloud. Unity Simulation allows you to parameterize a Unity project in ways that will change from run to run. You can also specify simulation output data necessary for your end application, whether that be the generation of training data for machine learning, the testing and validation of AI algorithms, or the evaluation and optimization of modeled systems. With Unity Simulation, there is no need to install and manage batch computing software or server clusters that you use to run your jobs, allowing you to focus on analyzing results and solving problems. 
+
+We hope you enjoy using the service, if you have any questions please open a thread in [the forum](https://forum.unity.com/forums/unity-simulation.407/) or contact support at simulation-help@unity3d.com.
+
+Sign up [here](https://dashboard.unity3d.com/metered-billing/marketplace/products/c20ae33a-6301-4bd3-9b17-4874027a4ed4) to start for free now!
 
 ## Pre-Requisites to installing Unity Simulation
 
@@ -18,6 +22,7 @@ Please refer to the [Installing pre-requisites guide](doc/requirements.md) for a
 
 | Section | Description |
 |---|---|
+|[Sign Up for Access](https://dashboard.unity3d.com/metered-billing/marketplace/products/c20ae33a-6301-4bd3-9b17-4874027a4ed4)| Get access to start for free now |
 |[Unity Simulation Concepts](doc/taxonomy.md) | Unity Simulation Concepts|
 |[QuickStart tutorial](doc/quickstart.md) | How to get started with Unity Simulation - A walkthrough |
 |[Sample Smart-Camera-Outdoor](https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor) | Sample unity project demonstrating usage of simulation packages for outdoor smart camera usecases.
