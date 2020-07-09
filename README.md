@@ -48,4 +48,3 @@ Please refer to the [Installing pre-requisites guide](doc/requirements.md) for a
 |---|---|
 |[API Docs](https://api.simulation.unity3d.com/swagger/index.html)| Documentation for using the Simulation API |
 |[CLI commands](doc/cli.md) | command descriptions for the CLI |
-|[Tiers](doc/usage-tiers.md)| How tiers affect your resource allowance and usage |
