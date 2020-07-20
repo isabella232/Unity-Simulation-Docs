@@ -40,6 +40,7 @@ Please refer to the [Installing pre-requisites guide](doc/requirements.md) for a
 |---|---|
 |[Use Case How-tos](doc/use-cases/use-cases.md) | Example use cases and how to implement them.|
 |[Simultaneous Capture](doc/simultaneous-capture.md)|How to simultaneously log data and capture an image.|
+|[Cloud Data Transfer](doc/data-transfer.md) | Transfer USim data to your cloud. |
 |[Troubleshooting](doc/troubleshooting.md) | Troubleshooting common issues.|
 
 ## Reference
