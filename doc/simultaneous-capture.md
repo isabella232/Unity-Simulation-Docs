@@ -39,6 +39,7 @@ using UnityEngine;
 using Unity.Simulation;
 using UnityEngine.Experimental.Rendering;
 using System;
+using System.IO;
 
 public class ScreenDataCapture : MonoBehaviour
 {
@@ -78,15 +79,13 @@ public class ScreenDataCapture : MonoBehaviour
             // Refer https://docs.unity3d.com/Manual/GameView.html
             int width = 1024;
             int height = 768;
-            bool flipY = false;
 
             // Convert the screen capture to a byte array
-            Array image = CaptureImageEncoder.Encode(
+            Array image = CaptureImageEncoder.EncodeArray(
                 request.data.colorBuffer as Array,
                 width, height,
                 GraphicsFormat.R8G8B8A8_UNorm,
-                CaptureImageEncoder.ImageFormat.Jpg,
-                flipY);
+                CaptureImageEncoder.ImageFormat.Jpg);
 
             // Write the screen capture to a file
             var result = File.Write(path, image);
