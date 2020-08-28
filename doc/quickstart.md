@@ -43,6 +43,13 @@ Unity Simulation Bundle Quick Start Materials includes:
 
 Unzip the quick start materials, `unity_simulation_bundle.zip`, to a well known directory, open a terminal window and navigate to the unzipped directory using the `cd` command.
 
+*NOTE*: We recommend downloading with a `cURL` command and unzipping with an `unzip` command, to avoid the [macOS Gatekeeper](https://github.com/Unity-Technologies/Unity-Simulation-Docs/blob/master/doc/troubleshooting.md#macos-gatekeeper) issue:
+
+```
+curl -Lo ~/Downloads/unity_simulation_bundle.zip <URL-unity_simulation_bundle.zip>
+unzip ~/Downloads/unity_simulation_bundle.zip -d ~/Downloads/unity_simulation_bundle
+```
+
 *NOTE*: All of the following commands will be run from the unzipped `unity_simulation_bundle` directory.
 
 For example, if the quick start materials were downloaded and unzipped in the `Downloads` directory one of the following commands will change to the correct directory to execute the Unity Simulation CLI commands in the terminal window.

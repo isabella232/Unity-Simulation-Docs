@@ -68,6 +68,15 @@ usim get projects | less
 
 Apple has [information and instructions](https://support.apple.com/en-us/HT202491) for Gatekeeper issues.
 
+If you see pop-ups such as `"usim" cannot be opened because the developer cannot be verified"`, that's the Gatekeeper being triggered. Scenarios can be downloading the quick start assets using a browser, extracting the files using a non-native archive utility, etc., as long as macOS finds the files downloaded may be or have been altered.
+
+Using the `cURL` command to download, and the `unzip` command, or the native `Archive Utility.app` to decompress is recommended:
+
+```
+curl -Lo unity_simulation_bundle.zip https://github.com/Unity-Technologies/Unity-Simulation-Docs/releases/download/v20200820/unity_simulation_bundle.zip
+unzip unity_simulation_bundle.zip -d unity_simulation_bundle
+```
+
 #### Validating checksums
 
 Our release notes will have checksums included for macOS releases. You can verify that the `usim` executable is in tact by comparing the checksum of the file. Produce a checksum with the `shasum -a 256 usim` command and compare the output with the checksum included in the release notes.
