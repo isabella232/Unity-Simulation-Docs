@@ -50,6 +50,8 @@ curl -Lo ~/Downloads/unity_simulation_bundle.zip <URL-unity_simulation_bundle.zi
 unzip ~/Downloads/unity_simulation_bundle.zip -d ~/Downloads/unity_simulation_bundle
 ```
 
+*NOTE*: If using the curl command, the latest URL *URL-unity_simulation_bundle.zip* for Unity Simulation can be found [here](https://github.com/Unity-Technologies/Unity-Simulation-Docs/releases).
+
 *NOTE*: All of the following commands will be run from the unzipped `unity_simulation_bundle` directory.
 
 For example, if the quick start materials were downloaded and unzipped in the `Downloads` directory one of the following commands will change to the correct directory to execute the Unity Simulation CLI commands in the terminal window.
