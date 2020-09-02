@@ -50,7 +50,15 @@ curl -Lo ~/Downloads/unity_simulation_bundle.zip <URL-unity_simulation_bundle.zi
 unzip ~/Downloads/unity_simulation_bundle.zip -d ~/Downloads/unity_simulation_bundle
 ```
 
-*NOTE*: If using the curl command, the latest URL *URL-unity_simulation_bundle.zip* for Unity Simulation can be found [here](https://github.com/Unity-Technologies/Unity-Simulation-Docs/releases).
+*NOTE*: If using the curl command, the latest URL *URL-unity_simulation_bundle.zip* for Unity Simulation can be found [here](https://github.com/Unity-Technologies/Unity-Simulation-Docs/releases). You may find the following command useful to download the latest unity_simulation_bundle on macOS.
+
+```
+curl --silent -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/Unity-Technologies/Unity-Simulation-Docs/releases/latest |
+    grep '"browser_download_url":' |
+    sed -E 's/.*"([^"]+)".*/\1/' |
+    tr -d \" |
+    xargs -I {} curl -sOL '{}'
+```
 
 *NOTE*: All of the following commands will be run from the unzipped `unity_simulation_bundle` directory.
 
