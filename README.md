@@ -28,6 +28,7 @@ Please refer to the [Installing pre-requisites guide](doc/requirements.md) for a
 |[QuickStart tutorial](doc/quickstart.md) | How to get started with Unity Simulation - A walkthrough |
 |[Sample Smart-Camera-Outdoor](https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor) | Sample unity project demonstrating usage of simulation packages for outdoor smart camera usecases.
 |[Sample Roll-A-Ball tutorial](https://github.com/Unity-Technologies/Unity-Simulation-RollABall) | Sample unity project integrated with the Unity Simulation SDK|
+|[Warehouse Robotics](https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-simulation-sample-project-warehouse-robot-176606)| Sample unity warehouse robotics project demonstrating usage of Unity Simulation and Perception SDK. 
 
 ## Developing a Simulation
 | Section | Description |
