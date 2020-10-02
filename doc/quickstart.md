@@ -221,7 +221,7 @@ $ USimCLI/mac/usim upload app-param ./AppParams/app-param.json
     #  Outputs AppParam ID
 
 $ USimCLI/mac/usim define run
-    # Walks the user through defining their run. (details covered elsewhere in this doc)
+    # Walks the user through defining their run. (details covered elsewhere in this doc !!!Define run)
     ## Prompts to enter a Name, Description 
     ## next, it prompts the user to select a build option(uploaded earlier), 
     ## next, it prompts the user to select a sys-param - a VM config to run the simulation in the cloud,
