@@ -61,7 +61,7 @@ USim needs write permission to your bucket before it can transfer any data. Foll
 
 2. Add USim service account **“project-787244313480@storage-transfer-service.iam.gserviceaccount.com”** as a member of the bucket and assign “Storage Legacy Bucket Writer” role. This service account is an internal service account used by Google Storage Transfer service to perform transfer operations.  
     
-    Also add USim service account **“bhram-prd-usc1-datatransfer@unity-ai-bhram-prd.iam.gserviceaccount.com”** as a member of the bucket and assign “Storage Legacy Bucket Reader” role. This service account is a USim service account that validates your destination bucket.  
+    Also add USim service account **“bhram-prd-usc1-datatransfer@unity-ai-bhram-prd.iam.gserviceaccount.com”** as a member of the bucket and assign **“Storage Legacy Bucket Reader”** role. This service account is a USim service account that validates your destination bucket.  
     
     ![opendlg](images/data-transfer-9.png "opendlg")
 
