@@ -11,7 +11,7 @@ To use USim data transfer features, one needs to make sure all USim prerequisite
 USim prerequisites can be found [HERE](https://github.com/Unity-Technologies/Unity-Simulation-Docs).
 
 USim data transfer feature allows you to transfer data from your own project to a custom
-GCS bucket within region `us-central1`. If your destination is in other region, please reach out to *simulation-help@unity3d.com* and request to add your project ID to our allowlist. 
+GCS bucket within region `us-central1`. If your destination is in other region, please reach out to *simulation-help@unity3d.com* and request to add your project ID. 
 
 ### Google Cloud Storage
 Assuming simulations were run successfully and data was generated, one needs to have access to Google Cloud Storage (GCS) and must create a bucket as the data transfer destination.
