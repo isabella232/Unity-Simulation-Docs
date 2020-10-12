@@ -53,7 +53,7 @@ Advanced settings. You can simply use default settings.
 Finally, click **“Create”** and your bucket should be ready in a moment.
 
 #### Grant Permission
-USim needs write permission to your bucket before it can transfer any data. Following these steps to grant permission.
+There are 2 service accounts need to access your destination bucket. Follow these steps to grant permissions.
 
 1. Click the bucket you just created and choose the “Permissions” tab
 
