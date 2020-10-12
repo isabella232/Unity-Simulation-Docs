@@ -435,3 +435,9 @@ There are also several properties that can be used to turn on and off individual
     // To turn a field off, use...
     DXTimeLogger.logSimulationTime = false;
 ```
+
+## Disable Texture Compression
+
+llvmpipe CPU renderer used by USim doesn't support texture compression. To disable the texture compression, select texture imported into unity and set compression to None as shown below
+
+![TextureCompression](images/texture-compression.png "Disable Texture Compression")

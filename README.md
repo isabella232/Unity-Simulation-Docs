@@ -48,7 +48,7 @@ Please refer to the [Installing pre-requisites guide](doc/requirements.md) for a
 ## Current Limitations
 - Currently USim only supports CPU based rendering via [XVFB](https://www.x.org/releases/X11R7.6/doc/man/man1/Xvfb.1.xhtml) which means it is restricted to OpenGL version supported by mesa software renderer [llvmpipe](https://docs.mesa3d.org/gallium/drivers/llvmpipe.html) (i.e upto version 3.3).
 - Rendering pipelines: With OpenGL Gfx API you can run your project with built-in/legacy rendering pipeline or [Universal Rendering Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@8.2/manual/index.html). [High Definition Rendering Pipeline](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@7.1/manual/Getting-started-with-HDRP.html) (HDRP) is currently not supported as it requires Vulkan or DirectX Gfx API.
-- Texture compression [supported by Unity](https://docs.unity3d.com/Manual/texture-compression-formats.html) is not supported by the software renderer used in the cloud (llvmpipe).
+- Texture compression [supported by Unity](https://docs.unity3d.com/Manual/texture-compression-formats.html) is not supported by the software renderer used in the cloud (llvmpipe). Instructions on disabling texture compression can be found [here](doc/integrate.md)
 - Simulation runtime in the cloud needs to be LinuxStandalone.
 - Running simulation workload with GPUs is not currently supported.
 
