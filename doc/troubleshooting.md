@@ -73,7 +73,7 @@ If you see pop-ups such as `"usim" cannot be opened because the developer cannot
 Using the `cURL` command to download, and the `unzip` command, or the native `Archive Utility.app` to decompress is recommended:
 
 ```
-curl -Lo unity_simulation_bundle.zip https://github.com/Unity-Technologies/Unity-Simulation-Docs/releases/download/v20200820/unity_simulation_bundle.zip
+curl -Lo unity_simulation_bundle.zip https://github.com/Unity-Technologies/Unity-Simulation-Docs/releases/download/v20210111/unity_simulation_bundle.zip
 unzip unity_simulation_bundle.zip -d unity_simulation_bundle
 ```
 
