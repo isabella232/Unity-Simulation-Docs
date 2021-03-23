@@ -39,7 +39,7 @@ To import the Unity Simulation Capture package using the Package Manager in the 
 
 Click on the + icon, and choose Add package from git URL. Then in the text field, paste the following package name into the field.
 
-*com.unity.simulation.capture@0.0.10-preview.8*
+*com.unity.simulation.capture*
 
 ![add_package_step2](images/PackmanAdd2.png "add_package2")
 
