@@ -21,6 +21,7 @@ Open the Quickstart Materials directory and navigate to the `RollaballLinuxBuild
   |  |-rollaball_linux_build
   |  |  |-rollaball_linux_build_Data
   |  |  |-rollaball_linux_build.x86_64
+  |  |  |-UnityPlayer.so
   |  |-rollaball_linux_build.zip
 ```
 
@@ -105,7 +106,7 @@ xvfb-run --auto-servernum --server-args="-screen 0 640x480x24:32" /tmp/linux_bui
 
 
 
-If everything went well you should get the output below and it will take about thirty seconds before the process finishes.
+If everything went well you should see some output similar to the output below. It may take a few minutes for the process to finish.
 ```
 Found path: /tmp/linux_build.x86_64
 Mono path[0] = '/tmp/linux_build_Data/Managed'
@@ -120,12 +121,11 @@ Logging to /root/.config/unity3d/Unity Technologies/Roll-a-ball/Player.log
 ```
 
 
-One important thing to note is the path on last line. This is the file where all logging by the executing sim is stored.
+All the logging by the executing sim is stored in this file.
 
 ```
 /root/.config/unity3d/Unity Technologies/Roll-a-ball/Player.log
 ```
-
 Let's read the contents of that file by running:
 ```
 cat /root/.config/unity3d/Unity\ Technologies/Roll-a-ball/Player.log
@@ -253,12 +253,7 @@ docker cp ff69abdf956e:/PATH/TO/FILE/FILENAME.txt FILENAME.txt
 
 You can also test your own project's Linux builds by only making a few changes.
 
-Use the Dockerfile below or copy the `Dockerfile` in the Quickstart Materials to the directory where your Linux build was saved and change the `COPY` lines at the bottom to point at your executable, _Data directory, and UnityPlayer.so file. You may omit copying your build files using docker's [bind mounting feature](https://docs.docker.com/storage/bind-mounts/) when you execute the docker run command.
-
-Example of bind mounting:
-```bash
-$ docker run -it --rm --mount type=bind,src=/path/to/build,dst=/unity_player test-container bash
-```
+Use the Dockerfile below or copy the `Dockerfile` in the Quickstart Materials to the directory where your Linux build was saved and change the `COPY` lines at the bottom to point at your executable, _Data directory, and UnityPlayer.so file.
 ```
 # What is the base image to pull
 FROM python:3.7.2-stretch
@@ -276,7 +271,26 @@ COPY [YOUR_BUILD].x86_64 /unity_player/linux_build.x86_64
 COPY [YOUR_BUILD]_Data /unity_player/linux_build_Data
 
 # for 2019.2+ version of the Unity Editor
-COPY [YOUR_UnityPlayer].so /unity_player/UnityPlayer.so
+COPY [YOUR_BUILD]/UnityPlayer.so /unity_player/UnityPlayer.so
+```
+
+[Optional] You may omit copying your build files using docker's [bind mounting feature](https://docs.docker.com/storage/bind-mounts/) when you execute the docker run command.
+
+Example of bind mounting:
+```bash
+$ docker run -it --rm --mount type=bind,source=/path/to/build,target=/unity_player test-container bash
+```
+
+Example Dockerfile when using bind mounting:
+```
+# What is the base image to pull
+FROM python:3.7.2-stretch
+
+# Update package lists
+RUN apt-get update
+
+# Install xvfb to execute the Unity build in the container
+RUN apt-get install -y xvfb
 ```
 
 ## Loading App Params
